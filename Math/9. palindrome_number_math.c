@@ -1,7 +1,3 @@
-#include<stdio.h>
-#include<conio.h>
-#include<math.h>
-#include<stdlib.h>
 bool isPalindrome(int x) {
     // Negative numbers are not palindrome
     if (x < 0 || (x % 10 == 0 && x != 0))
